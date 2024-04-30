@@ -19,7 +19,7 @@ def resume_template():
     return render_template("resume_template.html")
 
 @app.route('/contact')
-def resume_template():
+def resume_contact():
     return render_template("contact.html")
 
 if(__name__ == "__main__"):
